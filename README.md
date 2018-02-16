@@ -1,10 +1,6 @@
 **For Ubuntu 16.04 LTS**
 
-**1. Open terminal**
-
-```
-// open terminal on home directory
-```
+**1. Open terminal on home directory**
 
 **2. Clone wallet sources**
 
@@ -46,11 +42,7 @@ Good luck!
 
 **For Windows 10**
 
-**1. Open terminal**
-
-```
-// open terminal cmd.exe
-```
+**1. Open terminal cmd.exe**
 
 **2. Go to the directory**
 
