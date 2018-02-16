@@ -42,7 +42,7 @@ mkdir build && cd build && cmake .. && make
 
 start_mining [your wallet adress] [threads=2]
 
-Good luck
+Good luck!
 
 **For Windows 10**
 
@@ -94,4 +94,4 @@ mkdir build && cd build && cmake .. && make
 
 start_mining [your wallet adress] [threads=2]
 
-Good luck
+Good luck!
