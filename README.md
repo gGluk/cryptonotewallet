@@ -52,43 +52,43 @@ Good luck!
 // open terminal cmd.exe
 ```
 
-**3. Go to the directory**
+**2. Go to the directory**
 
 ```
 cd /mnt/d/git/
 ```
 
-**4. Clone wallet sources**
+**3. Clone wallet sources**
 
 ```
 git clone https://github.com/gGluk/intime_wallet.git
 ```
 
-**5. Change directory `intime_wallet`**
+**4. Change directory `intime_wallet`**
  
 ```
 cd intime_wallet
 ```
 
-**6. Set symbolic link to coin sources at the same level as `src`**
+**5. Set symbolic link to coin sources at the same level as `src`**
 
 ```
 ln -s ../intime cryptonote
 ```
 
-**7. Build**
+**6. Build**
 
 ```
 mkdir build && cd build && cmake .. && make
 ```
 
-**6. Open**
+**7. Open**
 
 //close the terminal and go to directory: *d:/git/intime_wallet/build* and open cryptonote_wallet
 
 //create the new wallet, set the password and copy your wallet adress
 
-**7. Mining**
+**8. Mining**
 
 //paste your wallet adress in intime terminal
 
