@@ -39,7 +39,7 @@ For Windows 10
 // open terminal cmd.exe
 ```
 
-**2. Create a folder in a convenient place for you, for example, the folder * git * **
+**2. Create a folder in a convenient place for you, for example, the folder * git *.**
 
 ```
 mkdir /mnt/d/git
