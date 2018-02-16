@@ -39,7 +39,7 @@ For Windows 10
 // open terminal cmd.exe
 ```
 
-**2. Create a folder in a convenient place for you, for example, the folder * git ***
+**2. Create a folder in a convenient place for you, for example, the folder * git * **
 
 ```
 mkdir /mnt/d/git
@@ -51,25 +51,25 @@ mkdir /mnt/d/git
 cd /mnt/d/git/
 ```
 
-**3. Clone wallet sources**
+**4. Clone wallet sources**
 
 ```
 git clone https://github.com/gGluk/intime_wallet.git
 ```
 
-**3. Change directory `intime_wallet`**
+**5. Change directory `intime_wallet`**
  
 ```
 cd intime_wallet
 ```
 
-**4. Set symbolic link to coin sources at the same level as `src`**
+**6. Set symbolic link to coin sources at the same level as `src`**
 
 ```
 ln -s ../intime cryptonote
 ```
 
-**5. Build**
+**7. Build**
 
 ```
 mkdir build && cd build && cmake .. && make
