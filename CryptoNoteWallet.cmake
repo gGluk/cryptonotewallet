@@ -1,4 +1,4 @@
 
 set(CN_PROJECT_NAME "intime")
 set(CN_CURRENCY_DISPLAY_NAME "inTime")
-set(CN_CURRENCY_TICKER "iTm")
+set(CN_CURRENCY_TICKER "ITM")
