@@ -1,32 +1,30 @@
-**1. Clone wallet sources**
+For Ubuntu 16.04 LTS
+
+**1. Open terminal**
 
 ```
-git clone https://github.com/gGluk/cryptonotewallet.git
+// open terminal on home directory
 ```
 
-**2. Modify `CryptoNoteWallet.cmake`**
+**2. Clone wallet sources**
+
+```
+git clone https://github.com/gGluk/intime_wallet.git
+```
+
+**3. Change directory `intime_wallet`**
  
 ```
-set(CN_PROJECT_NAME "intime")
-set(CN_CURRENCY_DISPLAY_NAME "inTime")
-set(CN_CURRENCY_TICKER "ITM")
+cd intime_wallet
 ```
 
-**3. Set symbolic link to coin sources at the same level as `src`. For example:**
+**4. Set symbolic link to coin sources at the same level as `src`**
 
 ```
 ln -s ../intime cryptonote
 ```
 
-Alternative way is to create git submodule:
-
-```
-git submodule add https://github.com/gGluk/intime.git cryptonote
-```
-
-Replace URL with git remote repository of your coin.
-
-**4. Build**
+**5. Build**
 
 ```
 mkdir build && cd build && cmake .. && make
