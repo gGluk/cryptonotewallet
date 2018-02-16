@@ -1,4 +1,4 @@
-For Ubuntu 16.04 LTS
+**For Ubuntu 16.04 LTS**
 
 **1. Open terminal**
 
@@ -30,8 +30,21 @@ ln -s ../intime cryptonote
 mkdir build && cd build && cmake .. && make
 ```
 
+**6. Open**
 
-For Windows 10
+//close the terminal and go to directory: home directory/intime_wallet/build and open cryptonote_wallet
+
+//create the new wallet, set the password and copy your wallet adress
+
+**7. Mining**
+
+//paste your wallet adress in intime terminal
+
+start_mining [your wallet adress] [threads=2]
+
+Good luck
+
+**For Windows 10**
 
 **1. Open terminal**
 
@@ -39,13 +52,7 @@ For Windows 10
 // open terminal cmd.exe
 ```
 
-**2. Create a folder in a convenient place for you, for example, the folder "git"**
-
-```
-mkdir /mnt/d/git
-```
-
-**3. Go to the newly created folder**
+**3. Go to the directory**
 
 ```
 cd /mnt/d/git/
@@ -74,3 +81,17 @@ ln -s ../intime cryptonote
 ```
 mkdir build && cd build && cmake .. && make
 ```
+
+**6. Open**
+
+//close the terminal and go to directory: *d:/git/intime_wallet/build* and open cryptonote_wallet
+
+//create the new wallet, set the password and copy your wallet adress
+
+**7. Mining**
+
+//paste your wallet adress in intime terminal
+
+start_mining [your wallet adress] [threads=2]
+
+Good luck
