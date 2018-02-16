@@ -1,3 +1,5 @@
+**Only for x64 processor**
+
 **For Ubuntu 16.04 LTS**
 
 **1. Open terminal on home directory**
